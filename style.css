@@ -1667,8 +1667,8 @@ input {
 }
 .accordion .accordion-button::before {
   position: absolute;
-  content: "\f068";
-  font-family: "Font Awesome 6 Pro";
+  content: "\F2EA";
+  font-family: "bootstrap-icons";
   font-weight: 700;
   top: 20px;
   right: 25px;
@@ -1686,8 +1686,10 @@ input {
   color: var(--primary-color);
 }
 .accordion .accordion-button.collapsed::before {
-  content: "+";
+  content: "\F4FE";
   color: rgba(2, 13, 10, 0.4);
+  font-family: "bootstrap-icons";
+    font-weight: 700;
 }
 
 .swiper__info {
