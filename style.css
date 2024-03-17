@@ -1,4 +1,4 @@
-:root {
+  :root {
   --primary-color: #1b5b4a;
   --primary-two: #124e52;
   --secondary-color: #020d0a;
@@ -28,7 +28,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "SF Pro Display";
+  font-family: &quot;SF Pro Display&quot;;
   color: var(--paragraph);
   background-color: var(--white);
   line-height: 32px;
@@ -45,7 +45,7 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: "ClashGrotesk-Medium";
+  font-family: &quot;ClashGrotesk-Medium&quot;;
   font-weight: 500;
 }
 
@@ -108,7 +108,7 @@ a {
   display: inline-block;
   color: var(--heading-color);
   transition: var(--transition);
-  font-family: "SF Pro Display";
+  font-family: &quot;SF Pro Display&quot;;
 }
 
 a:hover {
@@ -1621,7 +1621,7 @@ input {
   z-index: 1;
 }
 .overlay::before {
-  content: "";
+  content: &quot;&quot;;
   position: absolute;
   top: 0;
   left: 0;
@@ -1667,8 +1667,8 @@ input {
 }
 .accordion .accordion-button::before {
   position: absolute;
-  content: "\F2EA";
-  font-family: "bootstrap-icons";
+  content: &quot;\F2EA&quot;;
+  font-family: &quot;bootstrap-icons&quot;;
   font-weight: 700;
   top: 20px;
   right: 25px;
@@ -1686,9 +1686,9 @@ input {
   color: var(--primary-color);
 }
 .accordion .accordion-button.collapsed::before {
-  content: "\F4FE";
+  content: &quot;\F4FE&quot;;
   color: rgba(2, 13, 10, 0.4);
-  font-family: "bootstrap-icons";
+  font-family: &quot;bootstrap-icons&quot;;
     font-weight: 700;
 }
 
@@ -1877,7 +1877,7 @@ input {
   }
 }
 .btn-one::before, .btn-three::before, .btn-two::before {
-  content: "";
+  content: &quot;&quot;;
   position: absolute;
   height: 500px;
   width: 550px;
@@ -1992,7 +1992,7 @@ input {
   bottom: 3px;
   left: 0;
   z-index: -1;
-  content: "";
+  content: &quot;&quot;;
   background-color: rgba(2, 13, 10, 0.5019607843);
   width: 100%;
   height: 1px;
@@ -2035,7 +2035,7 @@ input {
 }
 .video-btn.video-pulse::after, .video-btn.video-pulse::before {
   position: absolute;
-  content: "";
+  content: &quot;&quot;;
   width: 100%;
   height: 100%;
   border: 1px solid var(--white);
@@ -2300,7 +2300,7 @@ input {
   position: fixed;
   top: 0;
   right: 0px;
-  width: 400px;
+  width: 360px;
   height: 100%;
   background-color: var(--heading-color);
   padding: 40px;
@@ -2334,7 +2334,7 @@ input {
   position: fixed;
   right: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0 0 0);
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -2380,7 +2380,7 @@ input {
 .mobile-menu .meanmenu-reveal {
   display: none !important;
 }
-.mobile-menu.mean-container .mean-nav > ul {
+.mobile-menu.mean-container .mean-nav &gt; ul {
   width: 100%;
   display: block !important;
 }
@@ -2434,7 +2434,7 @@ input {
 .banner__content h1 span::after {
   position: absolute;
   background-color: #ffc422;
-  content: "";
+  content: &quot;&quot;;
   width: 100%;
   height: 20%;
   left: 0;
@@ -2556,7 +2556,7 @@ input {
 .section-header h2 span::after, .section-header-two h2 span::after {
   position: absolute;
   background-color: #ffc422;
-  content: "";
+  content: &quot;&quot;;
   width: 100%;
   height: 20%;
   left: 0;
@@ -2569,7 +2569,7 @@ input {
 .section-header h2 span.light-underline::after, .section-header-two h2 span.light-underline::after {
   position: absolute;
   background-color: #ffc422;
-  content: "";
+  content: &quot;&quot;;
   width: 100%;
   height: 5px;
   left: 0;
@@ -2631,7 +2631,7 @@ input {
   height: 1px;
   background-color: var(--border);
   z-index: -1;
-  content: "";
+  content: &quot;&quot;;
 }
 @media (max-width: 1399px) {
   .brand__title::after {
@@ -2874,7 +2874,7 @@ input {
 }
 .service-details__testimonial p {
   font-size: 28px;
-  font-family: "ClashGrotesk-Medium";
+  font-family: &quot;ClashGrotesk-Medium&quot;;
   font-weight: 500;
   color: var(--white);
   line-height: 44px;
@@ -2994,7 +2994,7 @@ input {
   line-height: 60px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
-  font-family: "ClashGrotesk-Medium";
+  font-family: &quot;ClashGrotesk-Medium&quot;;
 }
 @media (max-width: 1399px) {
   .offer__item ul li .offer-title {
@@ -3170,7 +3170,7 @@ input {
 }
 .blog-details__right-item .item .title::after {
   position: absolute;
-  content: "";
+  content: &quot;&quot;;
   left: 0;
   bottom: -10px;
   height: 1px;
@@ -3645,7 +3645,7 @@ input {
 }
 .book-demo-area::after {
   position: absolute;
-  content: "";
+  content: &quot;&quot;;
   top: 0;
   right: 8%;
   background-color: #368668;
